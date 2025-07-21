@@ -1,8 +1,7 @@
-# DJI & General Video LUT Converter
+# DJI & General Video LUT Converter (including batch conversion)
 
-A Python-based command-line tool for converting video files (DJI D-Log-M or general formats) to Rec.709 or other color spaces using 3D LUTs (`.cube`).
+A Python-based command-line tool for converting single or batch video files (DJI D-Log-M or general formats) to Rec.709 or other color spaces using 3D LUTs (`.cube`).
 
-GitHub repository: https://github.com/XDcobra/dji_osmo_batch_convert_LUT
 
 ## Features
 
