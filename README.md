@@ -6,16 +6,18 @@ GitHub repository: https://github.com/XDcobra/dji_osmo_batch_convert_LUT
 
 ## Features
 
-- Interactive CLI menu
-- Converts DJI Osmo Pocket 3 D-Log-M footage to Rec.709
-- Supports `.mp4`, `.mov`, `.mkv`, `.avi`, `.mxf`, `.webm`
-- Automatically downloads the DJI LUT if not already present
-- Supports custom LUTs for general videos
-- Batch and single-file conversion
-- Flexible output options:
-  - Same folder with prefix
-  - Subfolder `converted/`
-  - Custom output path
+- **Interactive CLI menu**
+- **Converts DJI Osmo Pocket 3 D-Log-M footage to Rec.709**
+- **Supports custom LUTs for general videos**
+- **Batch and single-file conversion**
+- **LUT is only downloaded once and reused**
+- **Preserves original FPS (uses `ffprobe` to detect FPS)**
+- **Skips files that have already been converted**
+- **Supports `.mp4`, `.mov`, `.mkv`, `.avi`, `.mxf`, `.webm`**
+- **Flexible output options:**
+  - Save with `converted_` prefix in original folder
+  - Save to a `converted/` subfolder
+  - Specify a custom output folder
 
 ## Requirements
 
