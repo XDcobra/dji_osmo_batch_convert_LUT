@@ -22,6 +22,7 @@ A Python-based command-line tool for converting single or batch video files (DJI
 
 - Python 3.7+
 - FFmpeg (must be accessible via system PATH)
+- FFprobe (must be accessible via system PATH)
 
 ## Installation
 
@@ -38,10 +39,11 @@ cd dji_osmo_batch_convert_LUT
 pip install -r requirements.txt
 ```
 
-3. Ensure FFmpeg is installed and added to your PATH:
+3. Ensure FFmpeg & FFprobe is installed and added to your PATH:
 
 ```
 ffmpeg -version
+ffprobe -version
 ```
 
 ## Usage
